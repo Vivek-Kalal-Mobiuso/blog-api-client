@@ -4,7 +4,7 @@ import {logo} from '../assests'
 const Navbar = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const toggleDarkMode = (e) => {
+  const toggleDarkMode = ( e) => {
     document.getElementById("App").classList.add("dark");
   };
   return <div className="flex w-full">
